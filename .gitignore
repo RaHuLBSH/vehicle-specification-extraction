@@ -18,11 +18,7 @@ build/
 *.egg
 
 # Embeddings / indexes / local artifacts
-storage/*
-!storage/.gitkeep
-data/*
-!data/.gitkeep
-*.faiss
+data/service_manual.pdf
 *.index
 *.pkl
 *.pickle

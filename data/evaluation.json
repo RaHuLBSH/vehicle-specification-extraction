@@ -1,0 +1,22 @@
+[
+  {"category":"torque","query":"What is the wheel nut torque specification?","expected_component":"wheel nuts","expected_value":204.0,"expected_unit":"Nm","expected_page":199},
+  {"category":"dimension","query":"What is the maximum drive pinion flange runout?","expected_component":"Drive pinion flange runout","expected_value":0.25,"expected_unit":"mm","expected_page":199},
+  {"category":"dimension","query":"What is the maximum allowable driveshaft runout?","expected_component":"Maximum allowable driveshaft runout","expected_value":0.5,"expected_unit":"mm","expected_page":199},
+  {"category":"torque","query":"What is the minimum Traction-Lok breakaway torque?","expected_component":"Minimum Traction-Lok breakaway torque","expected_value":27.0,"expected_unit":"Nm","expected_page":199},
+  {"category":"dimension","query":"What is the specified U-joint operating angle?","expected_component":"U-joint operating angle","expected_value":"0.5°-3.0°","expected_unit":"","expected_page":199},
+  {"category":"fluid_capacity","query":"What is the front axle lubricant fill capacity?","expected_component":"Motorcraft SAE 80W-90 Premium Rear Axle Lubricant","expected_value":1.66,"expected_unit":"L","expected_page":446},
+  {"category":"dimension","query":"What is the assembled length of the left front halfshaft?","expected_component":"Left halfshaft assembled length","expected_value":406.45,"expected_unit":"mm","expected_page":578},
+  {"category":"dimension","query":"What is the assembled length of the right front halfshaft?","expected_component":"Right halfshaft assembled length","expected_value":411.85,"expected_unit":"mm","expected_page":578},
+  {"category":"dimension","query":"What is the minimum front brake disc thickness?","expected_component":"Front brake disc minimum thickness","expected_value":32.0,"expected_unit":"mm","expected_page":599},
+  {"category":"dimension","query":"What is the minimum rear brake disc thickness?","expected_component":"Rear brake disc minimum thickness","expected_value":23.0,"expected_unit":"mm","expected_page":599},
+  {"category":"dimension","query":"What is the maximum brake pad taper wear?","expected_component":"Maximum brake pad taper wear","expected_value":3.0,"expected_unit":"mm","expected_page":599},
+  {"category":"dimension","query":"What is the minimum brake pad thickness?","expected_component":"Minimum brake pad thickness","expected_value":3.0,"expected_unit":"mm","expected_page":599},
+  {"category":"torque","query":"What is the brake caliper bleed screw torque?","expected_component":"Brake caliper bleed screw","expected_value":10.0,"expected_unit":"Nm","expected_page":599},
+  {"category":"torque","query":"What is the master cylinder primary brake tube fitting torque?","expected_component":"Master cylinder primary brake tube fittings","expected_value":28.0,"expected_unit":"Nm","expected_page":599},
+  {"category":"torque","query":"What is the front brake caliper anchor plate bolt torque?","expected_component":"Brake caliper anchor plate bolts","expected_value":250.0,"expected_unit":"Nm","expected_page":629},
+  {"category":"torque","query":"What is the front brake caliper guide pin bolt torque?","expected_component":"Brake caliper guide pin bolts","expected_value":37.0,"expected_unit":"Nm","expected_page":629},
+  {"category":"torque","query":"What is the rear brake caliper guide pin bolt torque?","expected_component":"Brake caliper guide pin bolts","expected_value":33.0,"expected_unit":"Nm","expected_page":648},
+  {"category":"pressure","query":"What pressure should be applied when pressure bleeding the brake system?","expected_component":"brake system","expected_value":"207-345","expected_unit":"kPa","expected_page":618},
+  {"category":"oil_fluid_specification","query":"What brake fluid is specified for the ABS system?","expected_component":"High Performance DOT 3 Motor Vehicle Brake Fluid","expected_value":"PM-1-C (US); CPM-1-C (Canada)","expected_unit":"","expected_page":743},
+  {"category":"part_number","query":"What is the part number for the specified front axle lubricant?","expected_component":"Motorcraft SAE 80W-90 Premium Rear Axle Lubricant","expected_value":"XY-80W90-QL (US); CXY-80W90-1L (Canada)","expected_unit":"","expected_page":446}
+]
