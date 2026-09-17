@@ -1,0 +1,35 @@
+# Environment and secrets
+.env
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg
+
+# Embeddings / indexes / local artifacts
+storage/*
+!storage/.gitkeep
+data/*
+!data/.gitkeep
+*.faiss
+*.index
+*.pkl
+*.pickle
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
