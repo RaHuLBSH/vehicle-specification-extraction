@@ -1,0 +1,5 @@
+[server]
+# Avoid Streamlit's module watcher probing Transformers lazy imports. This
+# disables automatic source-code reload; restart `streamlit run app.py` after
+# editing application code.
+fileWatcherType = "none"

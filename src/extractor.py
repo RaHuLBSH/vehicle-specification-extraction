@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import logging
 import os
 import re
 import sys
@@ -29,6 +30,7 @@ GEMINI_FLASH_FALLBACK_MODELS = (
 )
 
 _client: Any = None
+logger = logging.getLogger(__name__)
 
 
 class ExtractionError(RuntimeError):
@@ -342,27 +344,30 @@ def _model_candidates(primary_model: str) -> list[str]:
     return list(dict.fromkeys((primary_model, *GEMINI_FLASH_FALLBACK_MODELS)))
 
 
-def _is_model_error(exc: Exception) -> bool:
-    """Return whether an API error indicates a bad/unavailable model endpoint."""
-    message = str(exc).casefold()
-    return any(
-        marker in message
-        for marker in ("model not found", "unknown model", "unsupported model", "not found", "404")
-    )
-
-
 def _generate_with_model_fallback(
     client: Any, *, prompt: str, config: dict[str, Any], primary_model: str
 ) -> Any:
-    """Generate once per Flash model, retrying only unavailable-model failures."""
+    """Retry every failed generation request with the next Flash model.
+
+    ``generate_content`` returns normally only for successful HTTP responses;
+    failures such as an unavailable model (404) or high demand (503) arrive as
+    exceptions. Parsing and validation failures are intentionally not retried.
+    """
     last_error: Exception | None = None
-    for position, candidate in enumerate(_model_candidates(primary_model)):
+    candidates = _model_candidates(primary_model)
+    for position, candidate in enumerate(candidates):
         try:
             return client.models.generate_content(model=candidate, contents=prompt, config=config)
         except Exception as exc:
             last_error = exc
-            if not _is_model_error(exc) or position == len(_model_candidates(primary_model)) - 1:
+            if position == len(candidates) - 1:
                 raise
+            logger.warning(
+                "Gemini request failed with model %s; retrying with %s: %s",
+                candidate,
+                candidates[position + 1],
+                exc,
+            )
     raise RuntimeError("No Gemini model candidates were available") from last_error
 
 

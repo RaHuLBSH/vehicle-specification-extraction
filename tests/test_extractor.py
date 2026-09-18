@@ -190,6 +190,28 @@ def test_extract_retries_with_flash_fallback_for_unavailable_model(
     ]
 
 
+def test_extract_retries_with_flash_fallback_for_service_unavailable(
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    monkeypatch.setenv("GEMINI_API_KEY", "test-key-not-real")
+    fake_response = MagicMock(parsed={"found": False, "specifications": [], "reason": "Missing"})
+    fake_client = MagicMock()
+    fake_client.models.generate_content.side_effect = [
+        RuntimeError("503 service unavailable: high demand"),
+        fake_response,
+    ]
+
+    result = extract_specifications(
+        "q", SAMPLE_CHUNKS, model_name="gemini-3.5-flash", client=fake_client
+    )
+
+    assert result.found is False
+    assert [call.kwargs["model"] for call in fake_client.models.generate_content.call_args_list] == [
+        "gemini-3.5-flash",
+        "gemini-3.8-flash",
+    ]
+
+
 def test_gemini_response_schema_removes_unsupported_additional_properties() -> None:
     schema = _gemini_response_schema()
 
