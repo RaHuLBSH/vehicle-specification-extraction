@@ -1,0 +1,272 @@
+[
+    {
+      "category": "torque",
+      "query": "What torque should the bolts holding the front drive axle housing tube be tightened to?",
+      "expected_component": "Axle housing tube bolts",
+      "expected_values": [
+        73.0
+      ],
+      "expected_unit": "Nm",
+      "expected_pages": [
+        449
+      ],
+      "pages_verified": false,
+      "anchor_text": "Axle housing tube bolts 73 54"
+    },
+    {
+      "category": "torque",
+      "query": "What is the torque for the differential bearing cap bolts on the Ford 8.8-inch rear axle?",
+      "expected_component": "Differential bearing cap bolt",
+      "expected_values": [
+        112.0
+      ],
+      "expected_unit": "Nm",
+      "expected_pages": [
+        259
+      ],
+      "pages_verified": false,
+      "anchor_text": "Differential bearing cap bolt 112 83"
+    },
+    {
+      "category": "torque",
+      "query": "What is the final torque stage for the rear leaf spring U-bolt nuts?",
+      "expected_component": "Rear leaf spring U-bolt nuts",
+      "expected_values": [
+        133.0
+      ],
+      "expected_unit": "Nm",
+      "expected_pages": [
+        138,
+        223
+      ],
+      "pages_verified": false,
+      "anchor_text": "Stage 4: Tighten in a cross pattern to 133 Nm (98 lb-ft)."
+    },
+    {
+      "category": "torque",
+      "query": "What torque secures the front tie-rod end jam nut after adjusting toe?",
+      "expected_component": "Tie-rod end jam nut",
+      "expected_values": [
+        103.0
+      ],
+      "expected_unit": "Nm",
+      "expected_pages": [
+        22
+      ],
+      "pages_verified": false,
+      "anchor_text": "Tighten the tie-rod end jam nut(s) to 103 Nm (76 lb-ft)."
+    },
+    {
+      "category": "torque",
+      "query": "What torque is required for the lower shock absorber nut on the front suspension of an SVT Raptor?",
+      "expected_component": "Shock absorber lower nut (SVT Raptor)",
+      "expected_values": [
+        550.0
+      ],
+      "expected_unit": "Nm",
+      "expected_pages": [
+        59
+      ],
+      "pages_verified": false,
+      "anchor_text": "Shock absorber lower nut (SVT Raptor) 550 406"
+    },
+    {
+      "category": "torque",
+      "query": "What is the torque for the differential housing cover bolts on the front drive axle?",
+      "expected_component": "Differential housing cover bolts",
+      "expected_values": [
+        32.0
+      ],
+      "expected_unit": "Nm",
+      "expected_pages": [
+        450
+      ],
+      "pages_verified": false,
+      "anchor_text": "Differential housing cover bolts 32 24"
+    },
+    {
+      "category": "torque",
+      "query": "What torque should the screw that secures the TPMS sensor to the valve stem be tightened to?",
+      "expected_component": "Valve stem-to-TPMS sensor screw",
+      "expected_values": [
+        1.5
+      ],
+      "expected_unit": "Nm",
+      "expected_pages": [
+        140
+      ],
+      "pages_verified": false,
+      "anchor_text": "Valve stem-to-Tire Pressure Monitoring System (TPMS) sensor screw 1.5 13"
+    },
+    {
+      "category": "fluid_capacity",
+      "query": "How much lubricant does the 9.75-inch rear axle with Traction-Lok need?",
+      "expected_component": "Rear axle lubricant",
+      "expected_values": [
+        2.48
+      ],
+      "expected_unit": "L",
+      "expected_pages": [
+        340
+      ],
+      "pages_verified": false,
+      "anchor_text": "2.48L (5.25 pt)"
+    },
+    {
+      "category": "fluid_capacity",
+      "query": "How much gear oil is needed to fill the Ford 8.8-inch rear axle?",
+      "expected_component": "Rear axle lubricant",
+      "expected_values": [
+        2.84,
+        2.8
+      ],
+      "expected_unit": "L",
+      "expected_pages": [
+        258
+      ],
+      "pages_verified": false,
+      "anchor_text": "2.84L (6.0 pt) (to"
+    },
+    {
+      "category": "fluid_capacity",
+      "query": "How many grams of grease are packed into the outboard CV joint of a front halfshaft?",
+      "expected_component": "Outboard CV joint grease",
+      "expected_values": [
+        165.0
+      ],
+      "expected_unit": "g",
+      "expected_pages": [
+        592
+      ],
+      "pages_verified": false,
+      "anchor_text": "Pack the outboard CV joint with 165 g (5.82 oz) of grease."
+    },
+    {
+      "category": "dimension",
+      "query": "What ring gear backlash range is specified for the 8.8-inch rear axle?",
+      "expected_component": "Ring gear backlash",
+      "expected_values": [
+        "0.203-0.304"
+      ],
+      "expected_unit": "mm",
+      "expected_pages": [
+        258
+      ],
+      "pages_verified": false,
+      "anchor_text": "Backlash between ring gear teeth and pinion teeth 0.203-0.304 mm"
+    },
+    {
+      "category": "dimension",
+      "query": "What is the pinion bearing preload range for the 9.75-inch rear axle?",
+      "expected_component": "Pinion bearing preload",
+      "expected_values": [
+        "1.8-3.3"
+      ],
+      "expected_unit": "Nm",
+      "expected_pages": [
+        341
+      ],
+      "pages_verified": false,
+      "anchor_text": "Pinion bearing preload 1.8-3.3 Nm (16-29 lb-in)"
+    },
+    {
+      "category": "dimension",
+      "query": "What is the maximum Road Force allowed for a wheel and tire assembly on an F-150 with LT-metric tires?",
+      "expected_component": "Road Force",
+      "expected_values": [
+        16.0
+      ],
+      "expected_unit": "kg",
+      "expected_pages": [
+        180
+      ],
+      "pages_verified": false,
+      "anchor_text": "F-150 with LT-metric tires 16 kg (35 lb)"
+    },
+    {
+      "category": "dimension",
+      "query": "How far may the front differential housing be spread at most?",
+      "expected_component": "Differential housing spread",
+      "expected_values": [
+        0.762
+      ],
+      "expected_unit": "mm",
+      "expected_pages": [
+        449
+      ],
+      "pages_verified": false,
+      "anchor_text": "Maximum differential housing spread 0.762 mm (0.030 in)"
+    },
+    {
+      "category": "threshold",
+      "query": "At what vehicle speed does trailer sway control start to activate?",
+      "expected_component": "Trailer sway control",
+      "expected_values": [
+        64.0
+      ],
+      "expected_unit": "km/h",
+      "expected_pages": [
+        750
+      ],
+      "pages_verified": false,
+      "anchor_text": "The trailer sway control function only activates when the vehicle speed exceeds 64 km/h (40 mph)."
+    },
+    {
+      "category": "threshold",
+      "query": "At what speed does the ELD disengage when driving in 4H?",
+      "expected_component": "Electronic Locking Differential (ELD)",
+      "expected_values": [
+        40.0
+      ],
+      "expected_unit": "km/h",
+      "expected_pages": [
+        343
+      ],
+      "pages_verified": false,
+      "anchor_text": "In 4H, the ELD will disengage at speeds above 40 km/h (25 mph)"
+    },
+    {
+      "category": "part_number",
+      "query": "What is the part number of the TPMS module?",
+      "expected_component": "TPMS module",
+      "expected_values": [
+        "15K602"
+      ],
+      "expected_unit": "",
+      "expected_pages": [
+        194
+      ],
+      "pages_verified": false,
+      "anchor_text": "3 15K602 Tire Pressure Monitoring System (TPMS) module"
+    },
+    {
+      "category": "oil_fluid_specification",
+      "query": "Which friction modifier is required for Traction-Lok axles?",
+      "expected_component": "Friction modifier",
+      "expected_values": [
+        "XL-3 (US); CXL-3 (Canada)"
+      ],
+      "expected_unit": "",
+      "expected_pages": [
+        258,
+        279,
+        306,
+        340,
+        373,
+        402,
+        449
+      ],
+      "pages_verified": false,
+      "anchor_text": "XL-3 (US); CXL-3 (Canada)"
+    },
+    {
+      "category": "unanswerable",
+      "query": "What is the spark plug gap specification?",
+      "expected_found": false
+    },
+    {
+      "category": "unanswerable",
+      "query": "What is the engine oil capacity?",
+      "expected_found": false
+    }
+  ]

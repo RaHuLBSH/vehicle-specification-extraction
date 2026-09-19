@@ -1,0 +1,202 @@
+[
+    {
+      "category": "torque",
+      "difficulty": "easy",
+      "query": "What is the torque specification for the RWD lower ball joint nut?",
+      "expected_found": true,
+      "expected_component": "lower ball joint nut",
+      "expected_value": 175,
+      "expected_unit": "Nm",
+      "expected_page": 24
+    },
+    {
+      "category": "torque",
+      "difficulty": "medium",
+      "query": "For a 4WD F-150, how tightly should the Integrated Wheel End bolts be installed?",
+      "expected_found": true,
+      "expected_component": "Integrated Wheel End bolts",
+      "expected_value": 12,
+      "expected_unit": "Nm",
+      "expected_page": 59
+    },
+    {
+      "category": "torque",
+      "difficulty": "medium",
+      "query": "What is the specified tightening torque for the rear suspension spring-to-shackle nut?",
+      "expected_found": true,
+      "expected_component": "spring-to-shackle nut",
+      "expected_value": 185,
+      "expected_unit": "Nm",
+      "expected_page": 128
+    },
+    {
+      "category": "torque",
+      "difficulty": "easy",
+      "query": "What torque is specified for the rear driveshaft center bearing bolts?",
+      "expected_found": true,
+      "expected_component": "rear driveshaft center bearing bolts",
+      "expected_value": 48,
+      "expected_unit": "Nm",
+      "expected_page": 234
+    },
+    {
+      "category": "runout",
+      "difficulty": "medium",
+      "query": "What is the maximum differential case runout for the Ford 8.8-inch rear axle?",
+      "expected_found": true,
+      "expected_component": "differential case maximum runout",
+      "expected_value": 0.076,
+      "expected_unit": "mm",
+      "expected_page": 258
+    },
+    {
+      "category": "capacity",
+      "difficulty": "medium",
+      "query": "How much SAE 75W-140 synthetic lubricant is required to fill the Ford 8.8-inch rear axle?",
+      "expected_found": true,
+      "expected_component": "SAE 75W-140 synthetic rear axle lubricant",
+      "expected_value": 2.84,
+      "expected_unit": "L",
+      "expected_page": 258
+    },
+    {
+      "category": "preload",
+      "difficulty": "hard",
+      "query": "What rotational preload range is specified for the pinion bearing in the Ford 8.8-inch rear differential?",
+      "expected_found": true,
+      "expected_component": "pinion bearing rotational preload",
+      "expected_value": "1.5-3.0",
+      "expected_unit": "Nm",
+      "expected_page": 258
+    },
+    {
+      "category": "torque",
+      "difficulty": "easy",
+      "query": "What is the torque specification for the Ford 8.8-inch differential housing cover bolts?",
+      "expected_found": true,
+      "expected_component": "differential housing cover bolts",
+      "expected_value": 45,
+      "expected_unit": "Nm",
+      "expected_page": 259
+    },
+    {
+      "category": "backlash",
+      "difficulty": "hard",
+      "query": "What side gear backlash range is allowed for the Electronic Locking Differential?",
+      "expected_found": true,
+      "expected_component": "Electronic Locking Differential side gear backlash",
+      "expected_value": "0.100-1.000",
+      "expected_unit": "mm",
+      "expected_page": 341
+    },
+    {
+      "category": "torque",
+      "difficulty": "medium",
+      "query": "How tightly should the Electronic Locking Differential electrical connector bolt be tightened?",
+      "expected_found": true,
+      "expected_component": "ELD electrical connector bolt",
+      "expected_value": 7,
+      "expected_unit": "Nm",
+      "expected_page": 341
+    },
+    {
+      "category": "capacity",
+      "difficulty": "medium",
+      "query": "What is the lubricant capacity of the front drive axle?",
+      "expected_found": true,
+      "expected_component": "front drive axle lubricant",
+      "expected_value": 1.66,
+      "expected_unit": "L",
+      "expected_page": 449
+    },
+    {
+      "category": "fill_level",
+      "difficulty": "hard",
+      "query": "How far below the differential housing fill hole should the front axle lubricant level be?",
+      "expected_found": true,
+      "expected_component": "front axle lubricant level",
+      "expected_value": 9.56,
+      "expected_unit": "mm",
+      "expected_page": 449
+    },
+    {
+      "category": "clearance",
+      "difficulty": "hard",
+      "query": "What is the maximum amount the front differential housing may be spread?",
+      "expected_found": true,
+      "expected_component": "maximum differential housing spread",
+      "expected_value": 0.762,
+      "expected_unit": "mm",
+      "expected_page": 449
+    },
+    {
+      "category": "thickness",
+      "difficulty": "easy",
+      "query": "What is the minimum allowable front brake disc thickness?",
+      "expected_found": true,
+      "expected_component": "front brake disc minimum thickness",
+      "expected_value": 32,
+      "expected_unit": "mm",
+      "expected_page": 636
+    },
+    {
+      "category": "wear_limit",
+      "difficulty": "medium",
+      "query": "What is the maximum permitted taper wear of the front brake pads?",
+      "expected_found": true,
+      "expected_component": "front brake pad maximum taper wear",
+      "expected_value": 3.0,
+      "expected_unit": "mm",
+      "expected_page": 636
+    },
+    {
+      "category": "capacity",
+      "difficulty": "hard",
+      "query": "How much DOT 3 brake fluid is listed in the rear disc brake specifications?",
+      "expected_found": true,
+      "expected_component": "rear disc brake DOT 3 brake fluid",
+      "expected_value": 1420,
+      "expected_unit": "ml",
+      "expected_page": 652
+    },
+    {
+      "category": "clearance",
+      "difficulty": "easy",
+      "query": "What clearance is specified for the parking brake shoes?",
+      "expected_found": true,
+      "expected_component": "parking brake shoe clearance",
+      "expected_value": 0.59,
+      "expected_unit": "mm",
+      "expected_page": 672
+    },
+    {
+      "category": "torque",
+      "difficulty": "medium",
+      "query": "What torque is required for the primary brake tube fitting in the hydraulic brake system?",
+      "expected_found": true,
+      "expected_component": "primary brake tube fitting",
+      "expected_value": 28,
+      "expected_unit": "Nm",
+      "expected_page": 696
+    },
+    {
+      "category": "capacity",
+      "difficulty": "hard",
+      "query": "What brake fluid capacity is specified for the hydraulic brake actuation system?",
+      "expected_found": true,
+      "expected_component": "hydraulic brake actuation brake fluid",
+      "expected_value": 740,
+      "expected_unit": "ml",
+      "expected_page": 696
+    },
+    {
+      "category": "torque",
+      "difficulty": "medium",
+      "query": "In the ABS system, what is the tightening torque for the master cylinder primary brake tube-to-HCU fitting?",
+      "expected_found": true,
+      "expected_component": "master cylinder primary brake tube-to-HCU fitting",
+      "expected_value": 28,
+      "expected_unit": "Nm",
+      "expected_page": 747
+    }
+  ]
